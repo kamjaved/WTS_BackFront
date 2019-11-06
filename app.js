@@ -30,7 +30,7 @@ const productDetailRoutes = require("./routes/product/productDetailRoutes");
 const app = express();
 
 const DB =
-  "mongodb+srv://kamran:1234@cluster0-fvxek.mongodb.net/test?retryWrites=true&w=majority";
+  "mongodb+srv://kamran:<PASSWORD>@cluster0-fvxek.mongodb.net/test?retryWrites=true&w=majority";
 
 mongoose
   .connect(DB, {
